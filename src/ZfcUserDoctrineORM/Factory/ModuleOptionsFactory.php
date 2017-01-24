@@ -2,7 +2,7 @@
 namespace ZfcUserDoctrineORM\Factory;
 
 use Zend\ServiceManager\FactoryInterface;
-use Zend\ServiceManager\ServiceLocatorInterface;
+use Interop\Container\ContainerInterface;
 use ZfcUserDoctrineORM\Options\ModuleOptions;
 
 class ModuleOptionsFactory implements FactoryInterface
